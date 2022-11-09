@@ -1,0 +1,22 @@
+{
+    "name": "breeze",
+    "version": "1.0.0",
+    "description": "The website is for Breeze, you can search millions of jobs online to find the next step in your career, We're here to assist you and make finding a job easier with job searchs, resumes, company reviews, and more!",
+    "main": "index.js",
+    "scripts": {
+        "lite": "lite-server",
+        "start": "npm run lite",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Danny",
+    "license": "ISC",
+    "devDependencies": {
+        "lite-server": "^2.6.1"
+    },
+    "dependencies": {
+        "bootstrap": "^4.5.2",
+        "font-awesome": "^4.7.0",
+        "jquery": "^3.5.1",
+        "popper.js": "^1.16.1"
+    }
+}
