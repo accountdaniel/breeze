@@ -30,13 +30,7 @@
         <a href="index.html" class="navbar-brand d-flex text-center py-0 px-4 px-lg-5">
             <h3 class="m-0 text-primary">Breeze</h3>
         </a>
-        <div>
-            <span class="navbar-text ml-auto">
-                <a role="button" data-toggle="modal" data-target="#loginModal">
-                    <i class="fa fa-sign-in"></i>Sign In
-                </a>
-            </span>
-        </div>
+        
         
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -54,13 +48,55 @@
             </div>
             <a href="#" class="nav-item nav-link">Contact</a>
         </div>
-        <a href="#" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Post a Job<i class="fa fa-arrow-right ms-3"></i>
+        <a href="#" class="btn btn-primary rounded-0 py-4 px-md-5 d-none d-md-block">Post a Job<i class="fa fa-arrow-right ms-3"></i>
+            <span class="navbar-text ml-auto">
+                <a role="button" data-toggle="modal" data-target="#loginModal">
+                    <i class="fa fa-sign-in"></i> Sign In
+                </a>
+            </span>
         </a>
+        
         </div>
         
 
 
 </nav>
+<div id="loginModal" class="modal fade" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Login</h3>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-12">
+                                <label class="sr-only" for="loginEmail">Email address</label>
+                                <input type="email" class="form-control form-control-sm" id="loginEmail" placeholder="Email">
+                            </div>
+                            <div class="form-group col-12">
+                                <label class="sr-only" for="loginPassword">Password</label>
+                                <input type="password" class="form-control form-control-sm" id="loginPassword" placeholder="Password">
+                            </div>
+                            <div class="col">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox">
+                                    <label class="form-check-label"> Remember me</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 <div class="container-fluid bg-primary mb-5 wow fadeIn" data-wow-delay="0.1s" style="padding: 35px; visibility:visible; animation-delay: 0.1s; animation-name: fadeIn;">
@@ -84,57 +120,74 @@
     <div class="container">
         <h1 class="text-center mb-5 wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name:fadeInUp;">Explore</h1>
         <div class="row row-content">
-            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp">
-            <a class="cat-item rounded p-4" href="#">
-                <i class="fa-solid fa-chart-simple"></i>
-                <h6 class="mb-3">Marketing</h6>
-                <p class="mb-0">123 Vacancy</p>
-            </a>
+            <div class="col-sm-6">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <i class="fa-solid fa-chart-simple"></i>
+                        <h5 class="card-title">Marketing</h5>
+                        <p class="card-text"># of Jobs</p>
+                        <a href="#" class="btn btn-primary">Apply</a>
+                    </div>
+                </div>
+            </div>
+                <div class="col-sm-6">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <i class="fa-solid fa-bell-concierge"></i>
+                            <h5 class="card-title">Customer Service</h5>
+                            <p class="card-text"># of Jobs</p>
+                            <a href="#" class="btn btn-primary">Apply</a>
+                        </div>
+                    </div>
+                </div>
         </div>
-        <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s" style="visibility:visible; animation-delay: 0.3s; animation-name: fadeInUp;">
-        <a class="cat-item rounded p-4" href="#">
-            <i class="fa-solid fa-bell-concierge"></i>
-            <h6 class="mb-3">Customer Service</h6>
-            <p class="mb-0">123 Vacancy</p>
-        </a>
-    </div>
-    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s" style="visibility:visible; animation-delay: 0.3s; animation-name: fadeInUp;">
-        <a class="cat-item rounded p-4" href="#">
-            <i class="fa-solid fa-people-roof"></i>
-            <h6 class="mb-3">Human Resources</h6>
-            <p class="mb-0">123 Vacancy</p>
-        </a>
-    </div>
-    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s" style="visibility:visible; animation-delay: 0.3s; animation-name: fadeInUp;">
-        <a class="cat-item rounded p-4" href="#">
-            <i class="fa-solid fa-chalkboard"></i>
-            <h6 class="mb-3">Teaching & Education</h6>
-            <p class="mb-0">123 Vacancy</p>
-        </a>
-    </div>
-    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s" style="visibility:visible; animation-delay: 0.3s; animation-name: fadeInUp;">
-        <a class="cat-item rounded p-4" href="#">
-            <i class="fa-solid fa-phone"></i>
-            <h6 class="mb-3">Sales and Communication</h6>
-            <p class="mb-0">123 Vacancy</p>
-        </a>
-    </div>
-    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s" style="visibility:visible; animation-delay: 0.3s; animation-name: fadeInUp;">
-        <a class="cat-item rounded p-4" href="#">
-            <i class="fa-solid fa-spray-can"></i>
-            <h6 class="mb-3">Design & Creative</h6>
-            <p class="mb-0">123 Vacancy</p>
-        </a>
-    </div>
-
-
-
-
-
-
+        <div class="row row-content">
+            <div class="col-sm-6">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <i class="fa-solid fa-circle-info"></i>
+                        <h5 class="card-title">Human Resource</h5>
+                        <p class="card-text"># of Jobs</p>
+                        <a href="#" class="btn btn-primary">Apply</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <i class="fa-solid fa-phone"></i>
+                        <h5 class="card-title">Sales & Communication</h5>
+                        <p class="card-text"># of Jobs</p>
+                        <a href="#" class="btn btn-primary">Apply</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col-sm-6">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <i class="fa-solid fa-chalkboard"></i>
+                        <h5 class="card-title">Teaching & Education</h5>
+                        <p class="card-text"># of Jobs</p>
+                        <a href="#" class="btn btn-primary">Apply</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <i class="fa-solid fa-spray-can"></i>
+                        <h5 class="card-title">Design</h5>
+                        <p class="card-text"># of Jobs</p>
+                        <a href="#" class="btn btn-primary">Apply</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
+
 
 
 
