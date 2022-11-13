@@ -1,57 +1,33 @@
-body {
-    font-family: "Open Sans", sans-serif;
-    margin: 0;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #666565;
-    background-color: #EFFDF5;
+flexContainer {
+    width: fit-content;
+    display: flex;
     justify-content: center;
+    align-items: center;
 }
-
-h1, h2, h3 {
-    font-family: "Lobster", cursive;
-}
-
-h3 {
-    color: #3046C5;
-    padding-right: 1090px;
-}
-
-header h2 {
-    color: #CEC8FF;
-}
-
-
-footer {
-    background-image: linear-gradient(to right, blue, #4E26E2);
-
-}
-
-
-
-
 .row-content {
-    padding: 50px 0;
+    padding: 50px 50px;
     border-bottom: 1px ridge;
     min-height: 200px;
 }
-.navbar {
-    background-color: #4E26E2;
-}
+
 .site-footer {
-    background-color: linear-gradient(#cec8ff, white);
-    padding-left: 400px;
-    display: flex;
-    justify-content: center;
-}
-.tab-content {
-    border: 1px solid #DDD;
-    border-top: none;
-    padding: 10px;
+    background-image: linear-gradient(white, #1381ff);
+    padding: 20px 0;
 }
 
-.flexContainer {
+#searchInput {
+    display: flex;
     justify-content: center;
-    padding-left: 400px;
+    align-items: center;
 }
+#navbarCollapse {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.copyright {
+    justify-content: center;
+    align-items: center;
+}
+
+
