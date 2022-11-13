@@ -6,6 +6,7 @@ body {
     line-height: 1.5;
     color: #666565;
     background-color: #EFFDF5;
+    justify-content: center;
 }
 
 h1, h2, h3 {
@@ -23,16 +24,12 @@ header h2 {
 
 
 footer {
-    background-image: linear-gradient(#CEC8FF, white);
-    padding: 20px 0;
+    background-image: linear-gradient(to right, blue, #4E26E2);
+
 }
 
-.jumbotron {
-    padding: 30px;
-    background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
-    color: white;
-    margin: 0;
-}
+
+
 
 .row-content {
     padding: 50px 0;
@@ -40,11 +37,13 @@ footer {
     min-height: 200px;
 }
 .navbar {
-    background-color: #901CAD;
+    background-color: #4E26E2;
 }
 .site-footer {
     background-color: linear-gradient(#cec8ff, white);
-    padding: 20px 0;
+    padding-left: 400px;
+    display: flex;
+    justify-content: center;
 }
 .tab-content {
     border: 1px solid #DDD;
@@ -52,3 +51,7 @@ footer {
     padding: 10px;
 }
 
+.flexContainer {
+    justify-content: center;
+    padding-left: 400px;
+}
