@@ -20,14 +20,14 @@ flexContainer {
     justify-content: center;
     align-items: center;
 }
-#navbarCollapse {
-    display: flex;
-    justify-content: right;
-    align-items: center;
-}
+
 .copyright {
     justify-content: center;
     align-items: center;
+}
+
+.topnav-right {
+    float: right;
 }
 
 
